@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+}
+
+h1, p{
+    margin: 0;
+    color: #726a95;
+
+}
+
+h2{
+    margin: 0;
+    color: #709fb0;
+
+}
+
+button{
+    display: inline-block;
+    margin: 2rem auto 2rem auto;
+    background-color: #c3aed6;
+    border: none;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 2rem;
+    transition-duration: 1s;
+    /* transition: color 1s, transform 1s; */
+    transition-timing-function: ease-in-out;
+}
+
+button:hover{
+    background-color: #8675a9;
+    transform: scale(1.2);
+    box-shadow: 5px 5px 5px #888888;
+}
+
+hr{
+    width: 3rem;
+    margin: 100px auto 100px auto;
+    border: dotted 9px;
+    border-bottom: none;
+    background-color: transparent;
+    color: #625261;
+    opacity: 0.2;
+}
+
+a:hover{
+    color: black;
+}
+
+.Contact{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montez', cursive; */
+
+}
+
+.link{
+    margin: auto 2rem auto 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+
+
+.FirstDiv{
+    height: 50rem;
+    background-color: #ecf4f3;
+    text-align: center;
+}
+
+.MidDiv{
+    /* height: 1000px; */
+    background-color: #ffffff;
+    position: relative;
+    top: 10%;
+    text-align: center;
+}
+
+.LastDiv{
+    text-align: center;
+    height: 100px;
+    background-color: #e8e8e8;
+    margin: 20px 0 0;
+}
+
+.Title{
+    position: absolute;
+    top: 16%;
+    left: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5.625rem;
+    font-weight: normal;
+    color: #726a95;
+}
+
+.Subtitle{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #709fb0;
+}
+
+.mountain{
+    margin: 35rem auto 0 auto;
+    
+    /* left: 250px; */
+}
+
+.cloud{
+    width: 100px;
+    height: 100px;
+}
+
+.Skills{
+    width: 50%;
+    margin: auto;
+}
+
+.Skills-row{
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.Computer-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 1rem;
+}
+
+.Computer-image2{
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+    /* margin-top: 1rem; */
+}
